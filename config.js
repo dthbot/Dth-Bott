@@ -15,11 +15,10 @@ global.owner = [
   ['393511082922', 'gio', true],
   ['393392645292', 'mavko', true],
   ['67078163216', 'Felix', true],
-  //['393514357738', 'vare', true],
-  ['4367870438356', 'qeqzy', true],
+  ['393514357738', 'vare', true],
 ]
-global.mods = ['393476686131', '393201688455', '67078163216']
-global.prems = ['393476686131', '393201688455', '67078163216']
+global.mods = ['393476686131', '393511082922', '67078163216']
+global.prems = ['393476686131', '393511082922', '67078163216']
 
 /*⭑⭒━━━✦❘༻🩸 INFO BOT 🕊️༺❘✦━━━⭒⭑*/
 
@@ -29,7 +28,7 @@ global.wm = 'vare ✧ bot'
 global.autore = '𝐬𝐚𝐦'
 global.dev = '⋆｡˚- 𝐬𝐚𝐦'
 global.testobot = `༻⋆⁺₊𝓿𝓪𝓻𝓮𝓫𝓸𝓽₊⁺⋆༺`
-global.versione = '2.5.5'
+global.versione = '2.5.7'
 global.errore = '⚠️ *Errore inatteso!* Usa il comando `.segnala <errore>` per avvisare lo sviluppatore.'
 
 /*⭑⭒━━━✦❘༻🌐 LINK 🌐༺❘✦━━━⭒⭑*/

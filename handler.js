@@ -20,20 +20,32 @@ if (!global.jidCache) {
 
 export const fetchMetadata = async (conn, chatId) => await conn.groupMetadata(chatId)
 
+const fetchGroupMetadataWithRetry = async (conn, chatId, retries = 3, delay = 1000) => {
+    for (let i = 0; i < retries; i++) {
+        try {
+            return await conn.groupMetadata(chatId);
+        } catch (e) {
+            if (i === retries - 1) throw e;
+            await new Promise(resolve => setTimeout(resolve, delay));
+        }
+    }
+}
+
 if (!global.cacheListenersSet) {
     const conn = global.conn
     if (conn) {
         conn.ev.on('groups.update', async (updates) => {
             for (const update of updates) {
                 try {
-                    const metadata = await fetchMetadata(conn, update.id)
+                    const metadata = await fetchGroupMetadataWithRetry(conn, update.id)
                     if (!metadata) {
-                        console.error(`[DEBUG] Impossibile aggiornare metadati per ${update.id}`)
                         continue
                     }
                     global.groupCache.set(update.id, metadata, { ttl: 300 })
                 } catch (e) {
-                    console.error(`[ERRORE] Errore nell'aggiornamento cache su groups.update per ${update.id}:`, e)
+                    if (!e.message?.includes('not authorized') && !e.message?.includes('chat not found') && !e.message?.includes('not in group')) {
+                        console.error(`[ERRORE] Errore nell'aggiornamento cache su groups.update per ${update.id}:`, e)
+                    }
                 }
             }
         })
