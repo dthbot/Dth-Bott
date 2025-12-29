@@ -9,26 +9,26 @@ import moment from 'moment-timezone'
 
 /*⭑⭒━━━✦❘༻☾⋆⁺₊✧ 𝓿𝓪𝓻𝓮𝓫𝓸𝓽 ✧₊⁺⋆☽༺❘✦━━━⭒⭑*/
 
-global.sam = ['393476686131',]
+global.sam = ['212785924420',]
 global.owner = [
-  ['393476686131', 'sam', true],
-  ['393511082922', 'gio', true],
-  ['393392645292', 'mavko', true],
-  ['67078163216', 'Felix', true],
-  ['393514357738', 'vare', true],
+  ['212785924420', 'Deadly', true],
+  ['447529503948', 'Vixiie', true],
+  ['xxxxxxxxxx'],
+  ['xxxxxxxxxx'],
+  ['xxxxxxxxxx'],
 ]
-global.mods = ['393476686131', '393511082922', '67078163216']
-global.prems = ['393476686131', '393511082922', '67078163216']
+global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx', 'xxxxxxxxxx']
+global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx', 'xxxxxxxxxx']
 
 /*⭑⭒━━━✦❘༻🩸 INFO BOT 🕊️༺❘✦━━━⭒⭑*/
 
-global.nomepack = 'vare ✧ bot'
-global.nomebot = '✧˚🩸 varebot 🕊️˚✧'
-global.wm = 'vare ✧ bot'
-global.autore = '𝐬𝐚𝐦'
-global.dev = '⋆｡˚- 𝐬𝐚𝐦'
-global.testobot = `༻⋆⁺₊𝓿𝓪𝓻𝓮𝓫𝓸𝓽₊⁺⋆༺`
-global.versione = '2.5.7'
+global.nomepack = 'ᴅᴛʜ-ʙᴏᴛ'
+global.nomebot = 'ᴅᴛʜ-ʙᴏᴛ'
+global.wm = 'ᴅᴛʜ-ʙᴏᴛ'
+global.autore = '𝕯𝖊ⱥ𝖉𝖑𝐲'
+global.dev = '𝕯𝖊ⱥ𝖉𝖑𝐲'
+global.testobot = `りｲん乃のｲ // ᴅᴛʜ-ʙᴏᴛ`
+global.versione = '3.0'
 global.errore = '⚠️ *Errore inatteso!* Usa il comando `.segnala <errore>` per avvisare lo sviluppatore.'
 
 /*⭑⭒━━━✦❘༻🌐 LINK 🌐༺❘✦━━━⭒⭑*/
