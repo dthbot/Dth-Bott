@@ -4,7 +4,7 @@
 
 # ![Retro](https://readme-typing-svg.herokuapp.com?font=VT323&size=24&duration=2500&pause=10000&color=8A2BE2&center=true&vCenter=true&width=250&height=25&lines=$+DTH-BOT)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=32&duration=2000&pause=800&color=8A2BE2&center=true&vCenter=true&multiline=true&width=900&height=120&lines=🚀+IL+MIGLIOR+BOT+DI+WHATSAPP+IN+ITALIA;BY+SAM+AKA+VARE)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=32&duration=2000&pause=800&color=8A2BE2&center=true&vCenter=true&multiline=true&width=900&height=120&lines=🚀+IL+MIGLIOR+BOT+DI+ZOZZAP+FATTO+DA+DEADLY+REPO+VAREBOT)
 
 [![Version](https://img.shields.io/badge/VERSIONE-2.5.0-blueviolet?style=for-the-badge&logo=semantic-release&logoColor=white&labelColor=2D1B69)](https://github.com/realvare/varebot)
 [![Status](https://img.shields.io/badge/STATO-IN_SVILUPPO-mediumpurple?style=for-the-badge&logo=rocket&logoColor=white&labelColor=483D8B)](https://github.com/realvare/varebot)
